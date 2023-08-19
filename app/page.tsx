@@ -1,5 +1,5 @@
 import Products from '@/components/Product/Products';
-export const page = () => {
+export default function Home() {
   return (
     <div className=''>
       <div className='hero min-h-screen bg-base-200 pb-5'>
@@ -7,6 +7,4 @@ export const page = () => {
       </div>
     </div>
   );
-};
-
-export default page;
+}
