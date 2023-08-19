@@ -1,6 +1,6 @@
 import React from 'react';
 import ProductDetails from '@/components/Product/ProductDetails';
-const DetailsPage = () => {
+const page = () => {
   return (
     <div className='container min-h-screen mt-5'>
       <ProductDetails />
@@ -8,4 +8,4 @@ const DetailsPage = () => {
   );
 };
 
-export default DetailsPage;
+export default page;

@@ -1,5 +1,5 @@
 import Products from '@/components/Product/Products';
-export const Home = () => {
+export const page = () => {
   return (
     <div className=''>
       <div className='hero min-h-screen bg-base-200 pb-5'>
@@ -9,4 +9,4 @@ export const Home = () => {
   );
 };
 
-export default Home;
+export default page;

@@ -1,6 +1,6 @@
 import Cart from '@/components/Product/Cart';
 
-const CartPage = () => {
+const page = () => {
   return (
     <div className='container min-h-screen'>
       <Cart />
@@ -8,4 +8,4 @@ const CartPage = () => {
   );
 };
 
-export default CartPage;
+export default page;
