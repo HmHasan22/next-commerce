@@ -1,12 +1,9 @@
 'use client';
-import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useSelector } from 'react-redux';
 import { RootState } from '@/redux/index';
-import LazyImage from './UI/LazyImage';
 const Header = () => {
   const cart = useSelector((state: RootState) => state.cart);
-
   return (
     <nav className='shadow-md sticky top-0 w-full z-50 bg-white'>
       <div className='navbar container'>

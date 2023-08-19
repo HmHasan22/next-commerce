@@ -1,8 +1,6 @@
 import React from 'react';
 
-type Props = {};
-
-const Footer = (props: Props) => {
+const Footer = () => {
   return (
     <footer className='py-5  text-center shadow-xl border bg-white'>
       <p className='text-md text-gray-500'>
