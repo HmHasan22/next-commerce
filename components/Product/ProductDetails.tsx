@@ -36,6 +36,9 @@ const ProductDetails = () => {
         window.alert('Item already added to cart');
       }
     } else {
+      if (typeof window !== 'undefined') {
+        window.alert('Item added to cart');
+      }
       dispatch(
         addToCart({
           id: product.id,
@@ -47,9 +50,6 @@ const ProductDetails = () => {
           price: product.price,
         })
       );
-    }
-    if (typeof window !== 'undefined') {
-      window.alert('Item added to cart');
     }
   };
   let renderProduct = null;
