@@ -1,5 +1,4 @@
 'use client';
-import React, { useState, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import {
   removeFromCart,
@@ -40,7 +39,7 @@ const Cart = () => {
     cartItems = cart.items.map((item, index) => {
       return (
         <div className='rounded-md shadow-md' key={index}>
-          <div className='grid grid-cols-12 items-center my-4 p-5'>
+          <div className='grid grid-cols-12 gap-8 items-center my-4 p-5'>
             <div className='col-span-4 cart-details-image'>
               <LazyImage
                 src={item.image}
