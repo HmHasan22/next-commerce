@@ -28,7 +28,7 @@ const ProductDetails = () => {
   };
   useEffect(() => {
     getSingleProduct();
-  }, [params.id]);
+  });
   const handleAddToCart = () => {
     const item = cart.items.find((item: any) => item.id === product.id);
     if (item) {
