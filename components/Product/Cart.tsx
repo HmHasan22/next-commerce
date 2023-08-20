@@ -70,7 +70,7 @@ const Cart = () => {
                   +
                 </button>
               </div>
-              <h2 className='text-2xl font-bold'>${item.total}</h2>
+              <h2 className='text-2xl font-bold'>${item.total.toFixed(2)}</h2>
               <div className='flex items-center gap-5 my-5'>
                 <h2 className='text-xl font-bold'>{item.title}</h2>
               </div>
